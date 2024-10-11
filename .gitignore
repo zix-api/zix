@@ -1,0 +1,8 @@
+# Ignore Builds
+
+/target
+
+# Ignore config directories
+
+/.vscode
+/.idea
