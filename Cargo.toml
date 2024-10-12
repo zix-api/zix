@@ -1,7 +1,11 @@
 [package]
 name = "zix"
+description = "A modern API builder and documentation generator with API schema generation integration."
 version = "1.0.0"
 edition = "2021"
+license-file = "LICENSE"
+readme = "README.md"
+categories = ["API", "API Schema", "API Builder", "API Generator", "API Docs Generator"]
 
 [dependencies]
 clap = "4.5.20"
