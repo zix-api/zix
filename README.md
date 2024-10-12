@@ -13,18 +13,24 @@
 To get started with Zix, use the following commands:
 
 - **Create a New API Schema**:
-  ```
+  ```bash
   zix create --name <schema_name> --version <schema_version> [--endpoints <path,method,request_format,response_format>...]
   ```
 
 - **List All API Schemas**:
-  ```
+  ```bash
   zix list
   ```
 
 - **Generate Documentation**:
-  ```
+  ```bash
   zix generate-docs --name <schema_name>
+  ```
+
+- **Use with Docker**:
+  ```bash
+  docker build -t zix -f .docker/Dockerfile .
+  docker run --rm zix
   ```
 
 ## Example
