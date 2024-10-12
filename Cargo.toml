@@ -2,6 +2,8 @@
 name = "zix"
 description = "A modern API builder and documentation generator with API schema generation integration."
 version = "1.0.0"
+homepage = "https://zix-api.vercel.app"
+repository = "https://github.com/zix-api/zix"
 edition = "2021"
 license-file = "LICENSE"
 readme = "README.md"
